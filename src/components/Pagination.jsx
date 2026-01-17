@@ -6,11 +6,11 @@ const Pagination = ({
   totalPages,
 }) => {
   return (
-    <div className="flex flex-wrap items-center justify-center gap-2">
+    <div className="flex flex-wrap items-center justify-center gap-1 sm:gap-2">
       <button
         disabled={currentPageNumber === 1}
         onClick={() => setCurrentPageNumber(currentPageNumber - 1)}
-        className="px-4 py-1.5 rounded-full border border-white/20 text-white 
+        className="px-4 py-1 text-sm sm:text-base rounded-full border border-white/20 text-white 
       disabled:opacity-40 hover:bg-white hover:text-black transition"
       >
         Prev
@@ -21,7 +21,7 @@ const Pagination = ({
           <button
             key={page}
             onClick={() => setCurrentPageNumber(page)}
-            className={`w-10 h-10 rounded-full border ${
+            className={`w-8 sm:w-10 h-8 sm:h-10 rounded-full border ${
               currentPageNumber === page
                 ? "bg-cyan-400 text-black"
                 : "border-white/20 text-white hover:bg-white hover:text-black"
@@ -34,7 +34,7 @@ const Pagination = ({
       <button
         disabled={currentPageNumber === totalPages}
         onClick={() => setCurrentPageNumber(currentPageNumber + 1)}
-        className="px-4 py-1.5 rounded-full border border-white/20 text-white 
+        className="px-4 py-1 text-sm sm:text-base rounded-full border border-white/20 text-white 
       disabled:opacity-40 hover:bg-white hover:text-black transition"
       >
         Next
