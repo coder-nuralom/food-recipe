@@ -6,7 +6,7 @@ A modern, responsive Food Recipe Website built with React, powered by the public
 🚀 Live Demo:-
 🔗 Live Site: https://food-recipe-one-self.vercel.app
 
-✨ Features
+✨ Features:-
 🔗 API Integration using Fetch API (MealDB)
 🧭 Client-side routing with react-router-dom
 🎠 Interactive slider / carousel for categories
