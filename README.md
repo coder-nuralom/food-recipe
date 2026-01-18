@@ -1,16 +1,40 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🍽️ Food Recipe Website (MealDB API)
+A modern, responsive Food Recipe Website built with React, powered by the public MealDB API. This project allows users to explore a wide variety of meals, search recipes, browse by category or area, and view detailed cooking instructions through a smooth and user-friendly interface.
 
-Currently, two official plugins are available:
+🚀 Live Demo
+🔗 Live Site: https://food-recipe-one-self.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
+🔗 API Integration using Fetch API (MealDB)
+🧭 Client-side routing with react-router-dom
+🎠 Interactive slider / carousel for categories
+⚛️ Modern React Hooks (useState, useEffect, useCallback)
+🔍 Search & Filter meals by name, category, and area
+📄 Recipe Details Page with instructions and images
+📱 Fully responsive design for mobile, tablet, and desktop
+⚡ Fast performance with optimized UI
 
-## React Compiler
+🛠️ Tech Stack
+React
+MealDB API
+React Router DOM
+Fetch API
+Tailwind CSS
+Swiper.js (for slider/carousel)
+Vite (build tool)
+Vercel (deployment)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+🌐 API Used
+MealDB API
+https://www.themealdb.com/api.php
 
-## Expanding the ESLint configuration
+📸 Screenshots
+Add screenshots of Home, Category Slider, Search Results, and Recipe Details here for better presentation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📬 Contact
+If you have any feedback or suggestions, feel free to reach out:
+GitHub: https://github.com/coder-nuralom
+
+⭐ If you like this project, don’t forget to star the repository!
